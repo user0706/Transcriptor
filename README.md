@@ -9,7 +9,7 @@ Transcriptor is a simple tool for transcribing dialogues (conversations) between
 <br>There is a possibility to define a certain topic of dialogue. This is possible by entering the topic in the field provided for that. *(Initially, the topic was not defined)*
 <br>**Language**
 <br>English is the initial language. So if the dialogue is in English, no additional initialization is required.
-You can also change the desired language by entering the [code](https://cloud.google.com/translate/docs/languages) for that language in the **language** input field.
+<br>You can also change the desired language by entering the [code](https://cloud.google.com/translate/docs/languages) for that language in the **language** input field.
 <br>In order to apply the desired settings, it is necessary to confirm with the Apply button.
 
 **Rule**
@@ -17,9 +17,9 @@ You can also change the desired language by entering the [code](https://cloud.go
 <br>When one speaker finishes saying the sentence, "successful" will be written on the status bar, and only then will the other speaker be able to repeat the same action.
 
 **Transcription database**
-The database file is automatically created in the `C:\Users\Public\Documents\Transcriptor` folder, in csv format called `transcript.csv`.
-After each successful transcription of any of the speakers, the sentence is automatically added to the same database. Sentences will be added to the same dataset until the file name is changed or moved from the original directory.
-The dataset has two columns. One is for the topic that defines the sentence, while the other is the column for the sentence.
+<br>The database file is automatically created in the `C:\Users\Public\Documents\Transcriptor` folder, in csv format called `transcript.csv`.
+<br>After each successful transcription of any of the speakers, the sentence is automatically added to the same database. Sentences will be added to the same dataset until the file name is changed or moved from the original directory.
+<br>The dataset has two columns. One is for the topic that defines the sentence, while the other is the column for the sentence.
 
 Example:
 |Topic|Sentence  |
