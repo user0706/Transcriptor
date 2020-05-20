@@ -4,17 +4,17 @@ Transcriptor is a simple tool for transcribing dialogues (conversations) between
 
 ## Instructions
 **Statusbar**
-The status bar is located in the upper central part of the window. By following the instructions written on it, it is possible to notice whether the transcription is successful or needs to be repeated again.
+<br>The status bar is located in the upper central part of the window. By following the instructions written on it, it is possible to notice whether the transcription is successful or needs to be repeated again.
 <br>**Topic**
-There is a possibility to define a certain topic of dialogue. This is possible by entering the topic in the field provided for that. *(Initially, the topic was not defined)*
+<br>There is a possibility to define a certain topic of dialogue. This is possible by entering the topic in the field provided for that. *(Initially, the topic was not defined)*
 <br>**Language**
-English is the initial language. So if the dialogue is in English, no additional initialization is required.
+<br>English is the initial language. So if the dialogue is in English, no additional initialization is required.
 You can also change the desired language by entering the [code](https://cloud.google.com/translate/docs/languages) for that language in the **language** input field.
 <br>In order to apply the desired settings, it is necessary to confirm with the Apply button.
 
 **Rule**
-When one speaker speaks, it is necessary to activate the button in order for the transcription to begin. In that case, the other speaker needs to be quiet.
-When one speaker finishes saying the sentence, "successful" will be written on the status bar, and only then will the other speaker be able to repeat the same action.
+<br>When one speaker speaks, it is necessary to activate the button in order for the transcription to begin. In that case, the other speaker needs to be quiet.
+<br>When one speaker finishes saying the sentence, "successful" will be written on the status bar, and only then will the other speaker be able to repeat the same action.
 
 **Transcription database**
 The database file is automatically created in the `C:\Users\Public\Documents\Transcriptor` folder, in csv format called `transcript.csv`.
