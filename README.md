@@ -5,9 +5,11 @@ Transcriptor is a simple tool for transcribing dialogues (conversations) between
 ## Instructions
 **Statusbar**
 <br>The status bar is located in the upper central part of the window. By following the instructions written on it, it is possible to notice whether the transcription is successful or needs to be repeated again.
-<p>**Topic**
+
+**Topic**
 <br>There is a possibility to define a certain topic of dialogue. This is possible by entering the topic in the field provided for that. *(Initially, the topic was not defined)*
-<p>**Language**
+
+**Language**
 <br>English is the initial language. So if the dialogue is in English, no additional initialization is required.
 <br>You can also change the desired language by entering the [code](https://cloud.google.com/translate/docs/languages) for that language in the **language** input field.
 <br>In order to apply the desired settings, it is necessary to confirm with the Apply button.
