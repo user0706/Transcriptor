@@ -29,11 +29,11 @@ class MyWin(QtWidgets.QMainWindow):
 		self.TempTranscription = ""
 		self.TranscriptFilePath = 'C:\\Users\\Public\\Documents\\Transcriptor'
 
-	# Collect all input parameters
+	# Collects settings
 	def ApplayFunction(self):
 		self.TopicValue = self.ui.TopicLineEdit.text()
 		self.LanguageValue = self.ui.LanguageLineEdit.text()
-
+	#Adds a sentence to the database
 	def TranscriptionWriter(self, transcript):
 		if not os.path.exists(self.TranscriptFilePath):
 			os.makedirs(self.TranscriptFilePath)
@@ -42,9 +42,10 @@ class MyWin(QtWidgets.QMainWindow):
 			write_csv = csv.writer(f)
 			write_csv.writerow([self.TopicValue, transcript])
 
-	# Speech to text
+	# Speech To Text
 	def stt(self):
 		r = sr.Recognizer()
+		# Flag, to check whether the detection is successful or not.
 		correct = 0
 		while correct==0:
 			with sr.Microphone() as source:
@@ -52,6 +53,7 @@ class MyWin(QtWidgets.QMainWindow):
 				try:
 					self.TempTranscription = r.recognize_google(audio_text, language= self.LanguageValue)
 					self.ui.StatusLabel.setText('Successful')
+					# The line below is added to update the label.
 					QApplication.processEvents()
 					correct = 1
 				 
